@@ -2,12 +2,12 @@
 
 Does a birdie make the next birdie more likely? Across **130,499 consecutive hole pairs** from 246 players in 22 marquee PGA Tour events (2020–2024), the answer is no. Golf at this level is **mean-reverting**: a good hole predicts a slightly worse next hole, and a bad hole predicts a slightly better one.
 
-- **After a birdie, the odds of another birdie drop about 10%** (odds ratio 0.897, p < 0.001), controlling for hole difficulty and player quality.
-- **After a bogey, the odds of a birdie rise about 14%** (odds ratio 1.136, p < 0.001).
-- **95% of players** (180 of 190 with at least 8 rounds) have negative within-round autocorrelation. Mean streakiness is −0.077 (t = −21.5).
-- **Streakiness doesn't predict scoring.** Regressing a player's average score to par on their streakiness gives p = 0.73.
+- After a birdie, the odds of another birdie drop about 10% (odds ratio 0.897, p < 0.001), controlling for hole difficulty and player quality.
+- After a bogey, the odds of a birdie rise about 14% (odds ratio 1.136, p < 0.001).
+- 180 of the 190 players with at least 8 rounds have negative within-round autocorrelation. Mean streakiness is −0.077 (t = −21.5).
+- Streakiness doesn't predict scoring. Regressing a player's average score to par on their streakiness gives p = 0.73.
 
-📄 **Full write-up:** [The Bounce-Back Effect (PDF)](The%20Bounce-Back%20Effect%20_%20Charlie%20Hubbard.pdf)
+The full write-up is [The Bounce-Back Effect (PDF)](The%20Bounce-Back%20Effect%20_%20Charlie%20Hubbard.pdf).
 
 ![Birdie and bogey rates by previous hole score](figures/conditional_rates.png)
 
